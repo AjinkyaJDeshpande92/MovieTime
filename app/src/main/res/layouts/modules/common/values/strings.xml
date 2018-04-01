@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fetching_movies">Fetching Movies...</string>
+    <string name="fetching_movie_details">Fetching Movie Details...</string>
+</resources>

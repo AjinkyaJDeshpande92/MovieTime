@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:clipToPadding="true"
+    android:fillViewport="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/xrellayMainParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/xtxtvwMovieTagLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/xtxtvwLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwMovieTagLine"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/ximgvw18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwMovieTagLine"
+            android:layout_toEndOf="@+id/xtxtvwLanguage"
+            android:padding="5dp"
+            android:src="@drawable/adult"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/xtxtvwGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwLanguage"
+            android:padding="5dp"
+            android:text="dsadsadsadsa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/xtxtvwMovieOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwGenre"
+            android:padding="5dp"
+            android:text="dsadsadasdasdddddddsadsads"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/xlinlayRatingsHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwMovieOverview"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/ximgvwLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/heart"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/xtxtvwRatings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/ximgvwVotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/votes"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/xtxtvwVotesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/xtxtvwReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xlinlayRatingsHolder"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/xtxtvwSpokenLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwReleaseDate"
+            android:padding="5dp"
+            android:text="dsadsadasdasdddddddsadsads"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/xtxtvwProductionCompanies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwSpokenLanguage"
+            android:padding="5dp"
+            android:text="dsadsadasdasdddddddsadsads"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/xtxtvwReleaseStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xtxtvwProductionCompanies"
+            android:padding="5dp"
+            android:text="dsadsadasdasdddddddsadsads"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+
